@@ -62,7 +62,7 @@ All that is left is to initialize and optimize.
 ``` python
 from bonsai.tune import CB_Tuner
 
-# note that 'cats' is a list of categorical feature column names
+# note that 'cats' is a list of categorical feature names
 tuner = CB_Tuner(X, y, cats, model_params, cv_params, pbounds)
 tuner.optimize(n_iter, init_points, opt_config, bounds_transformer)
 ``` 
