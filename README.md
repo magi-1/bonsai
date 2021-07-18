@@ -85,7 +85,7 @@ parallel_coordinates(results)
 ```
 
 <p align="center">
-  <img src="https://github.com/magi-1/bonsai/blob/59b07994c4fbcf8c32df7121ea571e08693a961d/images/param_plot.png" />
+  <img src="https://github.com/magi-1/bonsai/blob/8658ed04ce53040f52caed86680aa8d3f6a9354c/images/param_plot.png" />
 </p>
 
 
