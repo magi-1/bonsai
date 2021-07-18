@@ -2,7 +2,7 @@
 
 Bonsai is a wrapper for the XGBoost and Catboost model training pipelines that leverages Bayesian optimization for computationally efficient hyperparameter tuning.
 
-Depsite being a very small package, it has access to nearly all of the configurable parameters in XGBoost and CatBoost as well as the BayesianOptimization package allowing users to configure unique objectives, metrics, parameter search ranges, and search policies. This is made possible thanks to the strong similaries between both libraries.
+Depsite being a very small package, it has access to nearly all of the configurable parameters in XGBoost and CatBoost as well as the BayesianOptimization package allowing users to specify unique objectives, metrics, parameter search ranges, and search policies. This is made possible thanks to the strong similaries between both libraries.
 
 ```console
 $ pip install bonsai-tree
@@ -87,8 +87,3 @@ parallel_coordinates(results)
 <p align="center">
   <img src="https://github.com/magi-1/bonsai/blob/8658ed04ce53040f52caed86680aa8d3f6a9354c/images/param_plot.png" />
 </p>
-
-
-
-
-
