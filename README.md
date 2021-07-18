@@ -8,7 +8,7 @@ Depsite being a very small package, it has access to nearly all of the configura
 $ pip install bonsai-tree
 ```
 
-References:
+References/Dependencies:
 - [XGBoost](https://xgboost.readthedocs.io/en/latest/python/python_intro.html)
 - [CatBoost](https://catboost.ai/docs/concepts/python-reference_parameters-list.html)
 - [BayesianOptimization](https://github.com/fmfn/BayesianOptimization)
