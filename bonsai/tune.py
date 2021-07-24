@@ -69,6 +69,7 @@ class Tuner(ABC):
 
     # Defaults
     if not model_config:
+      # Assume RMSE, but user should modify in some cases
       model_config = dict(objective = 'RMSE', verbose = False)
       print(f'No model config found, attempting to run with {model_config}')
     if not cv_config:
